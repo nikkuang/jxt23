@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jinik</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Nothing to see here, go away.">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="jxt23">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex">
+        <meta name="redirect" http-equiv="refresh" content="0;url=https://www.youtube.com/watch?v=JQGRg8XBnB4" />
+    </head>
+<body> 
+    <a href="javascript:redirect();">Reload</a>
+</body>
+<script>
+    function redirect() {
+        var d = document.head.querySelector('meta[name="redirect"]'); 
+        document.location.href = (d.content.split(';')[1]).replace("url=", "");
+    }
+</script>
+</html> 
