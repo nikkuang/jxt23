@@ -1,1 +1,1 @@
-![QR Code](qr-code/qr-code.svg)
+[![QR Code](assets/qr-code.png)](https://nikkuang.github.io/jxt23)
